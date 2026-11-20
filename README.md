@@ -1,53 +1,74 @@
-# xTTier — Official App Releases & Binaries
+# xTTier — eXtended Technical Training for Infrastructure, Engineering & Reliability
 
-[![Latest Release](https://img.shields.io/github/v/release/netssv/xttier-releases?style=flat-square&color=7c6bb0)](https://github.com/netssv/xttier-releases/releases/latest)
-[![Platform](https://img.shields.io/badge/Platforms-Android%20%7C%20iOS%20%7C%20PWA-5fa882?style=flat-square)](https://xttier.rop-martel.workers.dev)
-[![Web App](https://img.shields.io/badge/Live%20Web-xttier.rop--martel.workers.dev-181622?style=flat-square)](https://xttier.rop-martel.workers.dev)
+[![Latest Release](https://img.shields.io/github/v/release/netssv/xttier-releases?style=flat-square&color=7c6bb0&label=Release)](https://github.com/netssv/xttier-releases/releases/latest)
+[![Tracks](https://img.shields.io/badge/Tracks-Tier%201%20%7C%20Tier%202%20%7C%20Tier%203%20%7C%20SysAdmin%20%7C%20DevOps-7c6bb0?style=flat-square)](https://xttier.rop-martel.workers.dev)
+[![Stack](https://img.shields.io/badge/Stack-Linux%20CLI%20%7C%20Apache%20%7C%20PHP--FPM%20%7C%20MariaDB%20%7C%20DNS%20%7C%20Exim-5fa882?style=flat-square)](https://xttier.rop-martel.workers.dev)
+[![Simulation](https://img.shields.io/badge/Simulation-40%2B%20Real--World%20Incidents-181622?style=flat-square)](https://xttier.rop-martel.workers.dev)
+[![Platforms](https://img.shields.io/badge/Platforms-Android%20%7C%20iOS%20%7C%20Web%20PWA-5fa882?style=flat-square)](https://xttier.rop-martel.workers.dev)
+[![Offline](https://img.shields.io/badge/PWA-100%25%20Offline%20Capable-524973?style=flat-square)](https://xttier.rop-martel.workers.dev)
 
-Repositorio público oficial para la distribución segura y descarga directa de los instaladores nativos de **xTTier** (Simulador Interactivo de Diagnóstico Técnico Tier 1 & Tier 2).
+> **xTTier** (*eXtended Technical Training for Infrastructure, Engineering & Reliability* / *eXtended Troubleshooting & Triage for Incident Escalation & Resolution*) es la plataforma interactiva multiplataforma de simulación técnica y entrenamiento en terminal (CLI). 
+> 
+> Diseñada para capacitar, auditar y acelerar habilidades reales sin poner en riesgo entornos de producción: desde soporte frontline y DNS (Tier 1), diagnóstico y administración en servidores (Tier 2 y Tier 3), hasta ingeniería Linux de sistemas (SysAdmin) y operaciones modernas en la nube (DevOps / SRE).
 
 ---
 
-## 📲 Enlaces de Descarga Directa (Última Versión Estable)
+## 🎯 Especialidades y Rutas de Formación
 
-| Plataforma | Archivo | Instalación Recomendada | Enlace Directo |
+```
+┌───────────────────────────────────────────────────────────────────────────┐
+│                          RUTAS DE ENTRENAMIENTO                           │
+├──────────────┬──────────────┬──────────────┬──────────────┬───────────────┤
+│    TIER 1    │    TIER 2    │    TIER 3    │   SYSADMIN   │    DEVOPS     │
+│   Frontline  │ Server Admin │ Deep Triage  │  Linux Core  │  Cloud & SRE  │
+├──────────────┼──────────────┼──────────────┼──────────────┼───────────────┤
+│ • DNS & MX   │ • SSH & nano │ • Kernel log │ • cPanel/WHM │ • CI/CD & Git │
+│ • HTTP 4xx   │ • Apache/Nginx│ • MySQL dump │ • iptables   │ • 12-Factor   │
+│ • Mail ports │ • PHP-FPM    │ • Memory OOM │ • Exim MTA   │ • Docker/Sync │
+│ • WHOIS check│ • .htaccess  │ • Disk inode │ • SSL / TLS  │ • Reliability │
+└──────────────┴──────────────┴──────────────┴──────────────┴───────────────┘
+```
+
+---
+
+## 📲 Descarga Directa de Instaladores Nativos
+
+| Plataforma | Binario | Método de Instalación | Enlace Directo |
 | :--- | :--- | :--- | :--- |
-| **Android** | `xTTier.apk` | Sideload / Instalación Directa | [⬇️ Descargar APK](https://github.com/netssv/xttier-releases/releases/latest/download/xTTier.apk) |
-| **iOS / iPad** | `xTTier.ipa` | TrollStore / Sideloadly / AltStore | [⬇️ Descargar IPA](https://github.com/netssv/xttier-releases/releases/latest/download/xTTier.ipa) |
-| **Web / iPad** | PWA Offline | Safari > *Agregar a inicio* | [🌐 Abrir Web App](https://xttier.rop-martel.workers.dev) |
+| **Android** | `xTTier.apk` | Sideload (Habilitar fuentes desconocidas) | [⬇️ **Descargar APK**](https://github.com/netssv/xttier-releases/releases/latest/download/xTTier.apk) |
+| **iOS / iPad** | `xTTier.ipa` | TrollStore (Permanente) / Sideloadly USB | [⬇️ **Descargar IPA**](https://github.com/netssv/xttier-releases/releases/latest/download/xTTier.ipa) |
+| **Web PWA** | Web App | Safari > *Compartir > Agregar a pantalla de inicio* | [🌐 **Abrir Web App**](https://xttier.rop-martel.workers.dev) |
 
 ---
 
-## 🛠️ Guía de Instalación por Dispositivo
+## 🛠️ Guía Rápida de Instalación
 
 ### 1. Android (Teléfonos y Tablets)
-1. Descarga el archivo [xTTier.apk](https://github.com/netssv/xttier-releases/releases/latest/download/xTTier.apk) directamente en tu dispositivo.
-2. Abre la notificación o el explorador de archivos y pulsa sobre el APK.
-3. Si el sistema te lo solicita, activa **Permitir instalar aplicaciones de fuentes desconocidas** para tu navegador o explorador.
-4. Presiona **Instalar**. La aplicación se ejecutará de forma autónoma con persistencia local y soporte offline.
+1. Descarga [xTTier.apk](https://github.com/netssv/xttier-releases/releases/latest/download/xTTier.apk).
+2. Toca el archivo descargado para iniciar la instalación.
+3. Si el sistema lo pide, autoriza la instalación de aplicaciones desde el navegador.
+4. Presiona **Instalar**. Funciona 100% offline con base de datos local y sincronización en la nube opcional.
 
 ### 2. Apple iPad & iPhone (iOS)
 
 #### A. Con TrollStore (Recomendado — Permanente y Sin Revokes)
-*Compatible con iOS 14.0 hasta 17.0 (CoreTrust).*
+*Compatible con iOS 14.0 hasta 17.0:*
 1. Descarga [xTTier.ipa](https://github.com/netssv/xttier-releases/releases/latest/download/xTTier.ipa) en Safari.
 2. Abre la app **Archivos (Files)**.
 3. Mantén presionado `xTTier.ipa` > **Compartir** > Selecciona **TrollStore**.
-4. Pulsa **Install**. La app queda instalada indefinidamente sin límite de 7 días ni certificados de pago.
+4. Pulsa **Install**. No caduca a los 7 días ni requiere cuenta de Apple Developer.
 
-#### B. Con Sideloadly o AltStore (Cualquier versión de iOS)
-1. Descarga `xTTier.ipa` en tu computadora (Windows / Mac).
-2. Conecta tu dispositivo por cable USB y abre **Sideloadly**.
-3. Arrastra el archivo `.ipa`, ingresa tu Apple ID gratuito y presiona **Start**.
-4. En el dispositivo, ve a **Ajustes > General > Gestión de dispositivos y VPN** y confía en tu desarrollador.
+#### B. Con Sideloadly / AltStore (Cualquier versión de iOS)
+1. Conecta tu dispositivo por cable USB a la computadora.
+2. Arrastra `xTTier.ipa` dentro de **Sideloadly**, ingresa tu Apple ID gratuito y presiona **Start**.
+3. En el dispositivo, ve a **Ajustes > General > Gestión de dispositivos y VPN** y autoriza tu perfil.
 
-#### C. Standalone PWA en iPad (Sin cables ni descargas)
+#### C. Standalone PWA en iPad (Sin descargas de archivos)
 1. Abre [https://xttier.rop-martel.workers.dev](https://xttier.rop-martel.workers.dev) en Safari en tu iPad.
-2. Toca el botón **Compartir** (icono de cuadro con flecha hacia arriba).
-3. Selecciona **Agregar a pantalla de inicio**.
-4. Se instalará como una app nativa completa a pantalla completa 100% offline.
+2. Toca el icono de **Compartir** y pulsa **Agregar a pantalla de inicio**.
+3. Queda instalada a pantalla completa con navegación táctil fluida y almacenamiento offline.
 
 ---
 
-## 🔒 Privacidad y Seguridad
-Este repositorio aloja exclusivamente los binarios compilados y empaquetados mediante integración continua en **GitHub Actions**. El código fuente de desarrollo, esquemas de bases de datos y bancos de preguntas privadas residen de forma segura en el repositorio principal privado.
+## 🔒 Privacidad del Código Fuente
+Este repositorio público distribuye exclusivamente los artefactos compilados mediante CI/CD automatizado en **GitHub Actions**. El código fuente completo, banco de reactivos pedagógicos, migraciones SQL y lógica del tutor socrático residen de forma segura en el repositorio privado central.
